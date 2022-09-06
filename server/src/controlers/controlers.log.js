@@ -7,7 +7,7 @@ export const getlog =  async (req,res)=>{
 };
 
 export const postlog = async (req, res)=>{
-    const newlog = await log({logFS: 'this is log FW'});
+    const newlog = await model_log({logFS: 'this is log FW'});
     const userSaved = await newlog.save();
     res.json(userSaved);
-};
+}
