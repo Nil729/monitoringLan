@@ -1,0 +1,25 @@
+{
+    "device": "#device",
+    "datetime": "#rec_timedate",
+    "data": {
+      "date": "#log_date",
+      "time": "#log_time",
+      "sn": "#sn",
+      "fw": "#fw",
+      "pri": "#pri",
+      "c": "#c",
+      "m": "#m",
+      "msg": "#msg",
+      "n": "#n",
+      "src_ip": "#src_ip",
+      "src_port": "#src_port",
+      "src_interface": "#src_interface",
+      "dst_ip": "#dst_ip",
+      "dst_port": "#dst_port",
+      "dst_interface": "#dst_interface",
+      "srcMAC": "#srcMAC",
+      "dstMAC": "#dstMAC",
+      "protocol": "#protocol",
+      "action": "#action"
+    }
+}
